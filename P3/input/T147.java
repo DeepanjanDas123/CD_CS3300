@@ -1,0 +1,23 @@
+// yes
+// Program type checked successfully
+//class extends
+//copy
+class T3{
+	public static void main(String[] args){
+        System.out.println(new A().foo());
+    }
+}
+
+class A{
+    public int foo(){
+        B a;
+        A b;
+        a = new B();
+        b = a;         
+        return 1;
+    }
+}
+
+class B extends A{
+
+}
